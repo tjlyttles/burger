@@ -32,7 +32,7 @@
                         <input type="text" id="ca" name="name">
                     </div>
 
-                    <button type="button" class="btn btn-primary" type="submit">Add Burger</button>
+                    <button class="btn btn-primary" type="submit">Add Burger</button>
                 </form>
             </div>
         </div>
@@ -57,7 +57,7 @@
     $(".create-form").on("submit", function(event) {
     // Make sure to preventDefault on a submit event.
         event.preventDefault();
-
+        
         var newBurger = {
         burger_name: $("#ca").val().trim(),
         };

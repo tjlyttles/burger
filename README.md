@@ -1,1 +1,3 @@
 # burger
+
+This application uses MySQL, Node, Express, Handlebars and a homemade ORM that asks for user input for a burger name of their choosing. Clicking on the 'Add Burger' button will then store the new burger into the database and displays it on the right side ready to be "consumed". The user can then click on the 'Devour' button which moves the burger to the right showing that the burger has been "consumed" and without any of the calories, might I add!

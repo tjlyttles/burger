@@ -1,2 +1,15 @@
-<input type="submit">	
-<button id='submit'>Submit</button>
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers/cat-block eaten=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/cat-block eaten=false}}
+    {{/if}}
+  {{/each}}
+</ul>

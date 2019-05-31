@@ -23,5 +23,5 @@ var burgers = {
       });
     }
   };
-
-module.exports = burger
+//Exports to controller (burgers_controller.js)
+module.exports = burgers
